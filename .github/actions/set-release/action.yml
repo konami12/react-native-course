@@ -19,3 +19,5 @@ runs:
             npm run release${{ inputs.releaseType }}
             git push
             git push origin --follow-tags
+            git reset --hard
+

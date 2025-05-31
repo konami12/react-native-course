@@ -1,9 +1,8 @@
 name: auto-release
 on:
-  pull_request:
+  push:
       branches:
         - main
-      types: [closed]
 jobs:
     build:
      runs-on: ubuntu-latest
