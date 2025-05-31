@@ -1,0 +1,16 @@
+name: delete-branch
+
+on:
+    pull_request:
+        types:
+            - closed
+
+jobs:
+    delete-merged-branch:
+        if: github.event.pull_request.merged == true
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              run: |
+                BRANCH_NAME=${{ github.event.pull_request.head.ref }}
+                echo "Branch to delete: $BRANCH_NAME"
