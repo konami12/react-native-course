@@ -1,0 +1,29 @@
+{
+    "expo": {
+        "name": "Practica 2",
+        "slug": "Practica 2",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "../../assets/practica2.png",
+        "userInterfaceStyle": "light",
+        "newArchEnabled": true,
+        "splash": {
+            "image": "../../assets/splash1.avif",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "../../assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "edgeToEdgeEnabled": true
+        },
+        "web": {
+            "favicon": "../../assets/favicon.png"
+        }
+    }
+}
