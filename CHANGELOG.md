@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/konami12/react-native-course/compare/v0.0.1...v0.0.2) (2025-05-31)
+
+### Features
+
+-   **app:** demos ([42b2aac](https://github.com/konami12/react-native-course/commit/42b2aacb07ed2e5594dd57627b4bb4802d1ac2cf))
+
 ### [0.0.1](https://github.com/konami12/react-native-course/compare/v0.0.1-beta.0...v0.0.1) (2025-05-31)
 
 ### Features
