@@ -10,6 +10,10 @@ jobs:
         if: github.event.pull_request.merged == true
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v4
+              with:
+                fetch-depth: 0
+                token: ${{ secrets.GITHUB_TOKEN }}
             - name: ✏️ CONFIGURACIONES PARA FIRMAR COMMITS
               uses: ./.github/actions/git-config
               with:
