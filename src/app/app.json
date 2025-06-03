@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "name": "Curso React Native",
+        "slug": "Curso React Native",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "../assets/images/icon.png",
+        "scheme": "dmonavegacion",
+        "userInterfaceStyle": "automatic",
+        "newArchEnabled": true,
+        "splash": {
+            "image": "../assets/images/splash-icon.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#272822"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "../assets/images/adaptive-icon.png",
+                "backgroundColor": "#272822"
+            },
+            "edgeToEdgeEnabled": true
+        },
+        "web": {
+            "bundler": "metro",
+            "output": "static",
+            "favicon": "../assets/images/favicon.png"
+        }
+    }
+}
