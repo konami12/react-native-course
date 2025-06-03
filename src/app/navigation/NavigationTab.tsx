@@ -1,8 +1,8 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
-import ExtraScreen from "../screens/Extra";
-import HomeScreen from "../screens/Home";
-import AboutScreen from "../screens/About";
+import ExtraScreen from "@screens/Extra";
+import HomeScreen from "@screens/Home";
+import AboutScreen from "@screens/About";
 
 type RootTabParamList = {
     Home: undefined;
