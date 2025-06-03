@@ -2,7 +2,7 @@
     "name": "quickstart",
     "version": "0.0.0",
     "description": "Quickstart project with commitizen, husky, lint-staged, prettier, standard-version",
-    "main": "./src/app/practica-0/index.js",
+    "main": "./src/app/index.js",
     "scripts": {
         "alias": "git config --global alias.cz \"!npm run commit\"",
         "prepare:husky": "husky init",
@@ -24,10 +24,10 @@
     "author": "Jorge Mendez Ortega <jorge.mendez.ortega@gmail.com>",
     "license": "MIT",
     "devDependencies": {
-        "@babel/core": "7.20.0",
+        "@babel/core": "7.24.7",
         "@commitlint/cli": "19.3.0",
         "@commitlint/config-conventional": "19.2.2",
-        "cz-conventional-changelog": "^3.3.0",
+        "cz-conventional-changelog": "3.3.0",
         "husky": "9.1.1",
         "lint-staged": "15.2.7",
         "prettier": "3.3.3",
@@ -35,10 +35,19 @@
         "standard-version": "9.5.0"
     },
     "dependencies": {
+        "@react-navigation/bottom-tabs": "7.3.14",
+        "@react-navigation/drawer": "7.4.1",
+        "@react-navigation/material-top-tabs": "7.2.14",
+        "@react-navigation/native": "7.1.10",
+        "@react-navigation/native-stack": "7.3.14",
         "expo": "53.0.9",
         "expo-status-bar": "2.2.3",
         "react": "19.0.0",
-        "react-native": "0.79.2"
+        "react-native": "0.79.2",
+        "react-native-gesture-handler": "~2.24.0",
+        "react-native-reanimated": "~3.17.4",
+        "react-native-safe-area-context": "5.4.0",
+        "react-native-screens": "4.10.0"
     },
     "config": {
         "commitizen": {
